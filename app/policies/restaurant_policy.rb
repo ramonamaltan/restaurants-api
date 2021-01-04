@@ -13,4 +13,9 @@ class RestaurantPolicy < ApplicationPolicy
     # only restaurant owners can update it
     record.user == user
   end
+
+  def create?
+    # any logged in user can create a restaurant
+    !user.nil?
+  end
 end
