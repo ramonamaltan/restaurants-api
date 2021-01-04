@@ -3,7 +3,7 @@ API built with Rails6 returns json data about restaurants or a single restaurant
 
 **Endpoints**
 
- /api/v1/restaurants
+ /api/v1/restaurants <br /> 
  /api/v1/restaurants/:id
 
 **Methods:**
